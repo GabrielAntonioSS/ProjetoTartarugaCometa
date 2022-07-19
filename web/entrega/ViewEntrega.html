@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cadastar Entrega</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/modal.css">
+    <link rel="stylesheet" href="../style/global.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="logo">Tartaruga Cometa</h1>
+
+        <a href=" http://localhost:8080/TartarugaCometa/modal/modal.html">
+            <p class="button-header">
+                Cadastrar
+            </p>
+        </a>
+    </header>
+
+    <a href=" http://localhost:8080/TartarugaCometa/index.html">
+        <section class="container-back">
+            <img class="icon-back" src="../assets/back.png" alt="voltar">
+            <p>Voltar para o início</p>
+        </section>
+    </a>
+
+    <h1 class="title-option">Cadastre sua entrega</h1>
+
+    <div class="container-global">
+        <img class="image-global" src="../assets/entrega.png" alt="entrega">
+        <form action="CadastEntrega.jsp" method="POST">
+            <div class="form-fields">
+                <section class="field-section">
+                    <label> Código do Remetente: </label> <br>
+                    <input type="text" required name="remetente_id">
+                </section>
+
+                <section class="field-section">
+                    <label> Código do Destinatario: </label> <br>
+                    <input type="text" required name="destinatario_id">
+                </section>
+
+                <section class="field-section">
+                    <label> Código do Produto: </label> <br>
+                    <input type="text" required name="produto_id">
+                </section>
+
+                <section class="field-section"> <br>
+                    <input type="submit" value="Cadastrar">
+                </section>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

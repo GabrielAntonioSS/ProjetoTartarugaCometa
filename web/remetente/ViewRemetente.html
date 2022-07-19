@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+
+<head>
+    <title>Cadastrar - remetente</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/modal.css">
+    <link rel="stylesheet" href="../style/global.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">Tartaruga Cometa</h1>
+
+        <a href=" http://localhost:8080/TartarugaCometa/modal/modal.html">
+            <p class="button-header">
+                Cadastrar
+            </p>
+        </a>
+    </header>
+
+    <a href=" http://localhost:8080/TartarugaCometa/index.html">
+        <section class="container-back">
+            <img class="icon-back" src="../assets/back.png" alt="voltar">
+            <p>Voltar para o início</p>
+        </section>
+    </a>
+
+    <h1 class="title-option">Cadastre um remetente</h1>
+
+    <div class="container-global">
+        <img class="image-global" src="../assets/remetente.png" alt="remetente">
+        <form action="CadastRemetente.jsp" method="POST">
+
+            <div class="form-fields">
+
+                <section class="field-section">
+                    <label> CPF/CNPJ do Remetente </label> <br>
+                    <input type="text" required maxlength="14" name="cpf_cnpj_Remet">
+                </section>
+
+                <section class="field-section">
+                    <label> Nome do Remetente </label> <br>
+                    <input type="text" required name="nome_Remet">
+                </section>
+
+                <section class="field-section">
+                    <label> Endereço do Remetente </label> <br>
+                    <input type="text" required name="endereco_Remet">
+                </section>
+
+                <section class="field-section">
+                    <label> CEP do Remetente </label> <br>
+                    <input type="text" required maxlength="8" name="cep_Remet">
+                </section>
+
+                <section class="field-section">
+                    <label> RG do Remetente </label> <br>
+                    <input type="text" required placeholder="Apenas números" name="rg_Remet">
+                </section>
+
+                <section class="field-section">
+                    <label> E-mail do Remetente </label> <br>
+                    <input type="text" name="email_Remet">
+                </section>
+
+                <section class="field-section">
+                    <label> Numero do Remetente </label> <br>
+                    <input type="text" required placeholder="(99)940028922" name="numero_Remet">
+                </section>
+
+                <section class="field-section">
+                    <input type="submit" value="Cadastrar">
+                </section>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

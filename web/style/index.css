@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-decoration: none;
+}
+
+a {
+    color: #2c2c2c;
+}
+
+header {
+    background-color: #07f149;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.logo {
+    color: white;
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+.button-header {
+    background-color: white;
+    border-radius: 4px;
+    font-size: 10pt;
+    padding: 8px 10px;
+    font-weight: 600;
+    transition: 150ms;
+    border: 1px solid rgb(7, 241, 73);
+    cursor: pointer;
+}
+
+.button-header:hover {
+    background-color: rgb(7, 241, 73);
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 10pt;
+    font-weight: 600;
+    transition: 150ms;
+}
+
+.container-home {
+    display: flex;
+    margin: 6%;
+    margin-top: 2%;
+}
+
+.information-home {
+    width: 40vw;
+    margin-top: 12%;
+    margin-left: 6%;
+}
+
+.titulo-home {
+    font-size: 46pt;
+    font-weight: 800;
+    width: 90%;
+}
+
+.description-home {
+    margin-top: 1%;
+    width: 80%;
+    font-size: 14pt;
+}
+
+.button-container-home {
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+    width: 36%;
+}
+
+.button-home {
+    background-color: #07f149;
+    font-size: 14pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100px;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid #07f149;
+    transition: 150ms;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-home:hover {
+    background-color: white;
+    font-size: 14pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #07f149;
+    border-radius: 4px;
+    border: 1px solid #07f149;
+    transition: 150ms;
+    cursor: pointer;
+}
+
+.button-home-secondary {
+    background-color: white;
+    font-size: 14pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100px;
+    color: #07f149;
+    border-radius: 4px;
+    border: 1px solid #07f149;
+    transition: 150ms;
+    cursor: pointer;
+    align-content: center;
+    text-align: center;
+}
+
+.button-home-secondary:hover {
+    background-color: #07f149;
+    font-size: 14pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid #07f149;
+    transition: 150ms;
+    cursor: pointer;
+}
+
+.image-home {
+    height: 70vh;
+    width: 40vw;
+}
