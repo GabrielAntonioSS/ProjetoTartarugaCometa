@@ -4,14 +4,14 @@ Criação de uma aplicação web que permita o lançamento de uma entrega
 
 ## software utilizados
 
-Java Web (JDK 8)
-Tomcat 8
-MySQL
-Visual Studio Code
-Apache NetBeans IDE 14
-Java
-HTML
-CSS
+- Java Web (JDK 8)
+- Tomcat 8
+- MySQL
+- Visual Studio Code
+- Apache NetBeans IDE 14
+- Java
+- HTML
+- CSS
 
 ##Instruções para o funcionamento do projeto
 
