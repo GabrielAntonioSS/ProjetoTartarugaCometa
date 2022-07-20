@@ -32,7 +32,5 @@ Na de editar, ira aparecer os mesmos campos de cadastrar mas ja com as informaç
 
 O banco de dados esta disponibilizado dentro do projeto.
 
-
-
-
+##( não consegui fazer o estilo do listar pois ele esta em .jsp)
 
